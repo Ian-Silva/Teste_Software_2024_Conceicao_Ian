@@ -1,0 +1,5 @@
+function throwError() {
+    throw new TypeError('This is a tpe error');
+  }
+  
+  module.exports = throwError;
