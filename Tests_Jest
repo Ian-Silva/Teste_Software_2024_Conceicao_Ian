@@ -1,5 +1,19 @@
+Código Desemvolvido para utilizarmos a solução proposta no Stack Overflow:
+
 function throwError() {
     throw new TypeError('This is a tpe error');
   }
   
   module.exports = throwError;
+
+Código pego do Usuário que solucionou a questão proposta:
+
+const throwError = require('./exemplo');
+
+test("should throw TypeError", () => {
+  const t = () => {
+    throwError();
+  };
+  expect(t).toThrow(TypeError);
+  //expect(t).toThrow('This is a type error');
+});
