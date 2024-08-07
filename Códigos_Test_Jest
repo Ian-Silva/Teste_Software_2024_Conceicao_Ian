@@ -1,3 +1,5 @@
+------------------------------------------------------------------
+
 Código Desemvolvido para utilizarmos a solução proposta no Stack Overflow:
 
 function throwError() {
@@ -5,6 +7,9 @@ function throwError() {
   }
   
   module.exports = throwError;
+
+
+----------------------------------------------------------------
 
 Código pego do Usuário que solucionou a questão proposta:
 
@@ -17,3 +22,5 @@ test("should throw TypeError", () => {
   expect(t).toThrow(TypeError);
   //expect(t).toThrow('This is a type error');
 });
+
+---------------------------------------------------------------
